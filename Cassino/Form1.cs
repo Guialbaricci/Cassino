@@ -67,9 +67,9 @@ namespace Cassino
                 tmrGiro.Enabled = false;
                 btGirar.Enabled = true;
             }
-            if (lbl1 == lbl2 && lbl2 == lbl3)
+           if (tela[0].Text == tela[1].Text && tela[1].Text == tela[2].Text)
             {
-                MessageBox.Show("Você ganhou!");
+                MessageBox.Show("VocÃª ganhou!");
             }
         }
     }
