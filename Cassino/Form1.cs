@@ -64,12 +64,12 @@ namespace Cassino
             }
             if (parado)
             {
+                if (tela[0].Text == tela[1].Text && tela[1].Text == tela[2].Text)
+                {
+                    MessageBox.Show("Você ganhou!");
+                }
                 tmrGiro.Enabled = false;
                 btGirar.Enabled = true;
-            }
-           if (tela[0].Text == tela[1].Text && tela[1].Text == tela[2].Text)
-            {
-                MessageBox.Show("Você ganhou!");
             }
         }
     }
